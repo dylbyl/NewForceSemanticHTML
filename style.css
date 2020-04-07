@@ -16,3 +16,35 @@
     padding: 2px;
     text-align: left;
 }
+
+#bio{
+    display: flex;
+}
+
+.bio__district{
+    padding: 1em;
+    margin: 1em;
+    flex-wrap: wrap;
+}
+
+.bio__name{
+    padding: 3px;
+    margin: 3px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.bio__affiliation{
+    padding: 1em;
+    margin: 1em;
+    flex-wrap: wrap;
+}
+
+.bio__img{
+    display: inline-flex;
+}
+
+#main{
+    background-color: palevioletred;
+}
